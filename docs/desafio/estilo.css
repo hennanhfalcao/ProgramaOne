@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #D8DFE8;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    width: 120px;
+    height: 48px;
+    background-image: url('./assets/Frame\ 6logo2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.lado-digite-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aviso {
+    display: flex;
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    top: 851px;
+    left: 240px;
+    gap: 8px;
+    color:#495057;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+} 
+
+.aviso img {
+    width: 16px;
+    height: 16px;
+}
+
+.secao-botoes {
+    position: absolute;
+    display: flex;
+    width: 680px;
+    height: 67px;
+    gap: 24px;
+    justify-content: center;
+    top: 885px;
+    left: 240px;
+}
+
+.criptografar-btn {
+    background-color: darkblue;
+    color: #fff;
+}
+
+.criptografar-btn, .descriptografar-btn {
+    width: 100%;
+    padding: 24px 80px;
+    border-radius: 24px;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.campo-de-texto {
+    position: fixed;
+    width: 680px;
+    height: auto;
+    top: 168px;
+    left: 240px;
+}
+
+textarea {
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+.lado-revela-texto {
+    position: absolute;
+    background-color: #fff;
+    width: 600px;
+    height: 944px;
+    top: 40px;
+    right: 40px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 24px 32px -8px #00000014;
+
+}
+
+.imagem-estudante {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: 283px;
+    left: 1032px;
+}
+
+.textos-informativos {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    width: 436px;
+    height: 122px;
+    top: 619px;
+    left: 1032px;
+}
+
+h1 {
+    font-weight: 700;
+    color: #343A40;
+    line-height: 28.8px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.output-text {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+}
+
+.output-text-temp {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #495057
+}
+
+.input-text {
+    color: #0A3871 ;
+}

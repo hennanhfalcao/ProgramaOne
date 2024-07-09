@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Decodificador de texto</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel = "stylesheet" href = "./estilo.css">
+        <link rel = "stylesheet" href = "./reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <figure class = "imagem"></figure>
+        <main>
+            <section class = "lado-digite-texto">
+                <section class = "campo-de-texto">
+                    <textarea id = "input-text" class = "input-text" placeholder="Digite seu texto aqui"></textarea>
+                </section>
+                <div class = "aviso">
+                    <img src="./assets/exc.png">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <section class = "secao-botoes">
+                    <button onclick = "criptografar()" id = "criptografar-btn" class="criptografar-btn">Criptografar</button>
+                    <button onclick = "descriptografar()" id = "descriptografar-btn" class = "descriptografar-btn">Descriptografar</button>
+                </section>
+            </section>
+            <section class = "lado-revela-texto">
+                <img src="./assets/estudante1.png" id = "imagem-estudante">
+                <div class = "textos-informativos">
+                    <h1 class = "titulo" id = "titulo"></h1>
+                    <p id = "output-text" class = "output-text"></p>
+                </div>
+            </section>
+        </main>
+        <footer class = "rodape"><p>Desenvolvido por Hennan H. Falcão - 2024.</p></footer>
+        <script src="./script.js" defer></script>
+    </body>
+</html>
